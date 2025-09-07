@@ -1,0 +1,19 @@
+1.composer create-project laravel/laravel hotel-reservation
+
+2.cd hotel-reservation
+
+3.Open the .env file in the root of your Laravel project folder. This file stores environment configurations like database connections.
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=hotel
+DB_USERNAME=root
+DB_PASSWORD=
+
+4. Run Laravel Server
+Start the Laravel development server with: php artisan serve
+Visit http://localhost:8000 in your browser to confirm Laravel is set up correctly. You should see the default Laravel welcome page.
+
+5. Move CSS and JavaScript Files in public/css folder and public/js folder.
+
+6.
